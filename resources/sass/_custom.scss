@@ -1,0 +1,19 @@
+/* body{
+    font-weight: bold; 
+    background-color: red;
+    button{
+        color: black !important;
+        span{
+            color: #fff;
+            &:hover{
+                color: red !important;
+            }
+            &:before{
+                content: 'test';
+                position:absolute;
+                color: red;
+                right: -100px;
+            }
+        }
+    }
+} */
